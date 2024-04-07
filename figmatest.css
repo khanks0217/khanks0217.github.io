@@ -1,0 +1,1271 @@
+/* Getting Started */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 1200px;
+height: 2512px;
+
+background: #FFFFFF;
+
+
+/* header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px;
+gap: 10px;
+
+width: 1200px;
+height: 89px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5.44px;
+
+margin: 0 auto;
+width: 186.73px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 337 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8.16px;
+
+width: 186.73px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Gola */
+
+width: 47.73px;
+height: 25px;
+
+/* text/default */
+background: #242424;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 338 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8.15573px 0px 0px;
+gap: 13.59px;
+
+width: 10.87px;
+height: 19.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 104 */
+
+width: 10.87px;
+height: 10.87px;
+
+background: #EBFB48;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* templates */
+
+width: 111.82px;
+height: 24.66px;
+
+/* text/default */
+background: #242424;
+opacity: 0.45;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 176px;
+height: 24px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* templates.gola.io */
+
+width: 144px;
+height: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+text-decoration-line: underline;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ri:arrow-right-up-line */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.93%;
+right: 24.98%;
+top: 25%;
+bottom: 24.91%;
+
+background: #242424;
+
+
+/* Thumbnail */
+
+width: 1200px;
+height: 675px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 1200px;
+height: 675px;
+left: calc(50% - 1200px/2);
+top: calc(50% - 675px/2 - 0px);
+
+background: url(figma-preview.png);
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 48px;
+
+width: 1200px;
+height: 348px;
+
+background: #F8F8F8;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1040px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Welcome */
+
+width: 1040px;
+height: 84px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 70px;
+line-height: 120%;
+/* identical to box height, or 84px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Thank you for your support. Glad you are here. Here’s is some information to help you getting started with this Figma File. */
+
+width: 1040px;
+height: 96px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 160%;
+/* or 48px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 80px 0px;
+gap: 40px;
+
+width: 1200px;
+height: 527px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 284px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Getting started */
+
+width: 284px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 48px;
+gap: 32px;
+
+width: 1040px;
+height: 355px;
+
+background: #F8F8F8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* mdi:alert-circle-outline */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 872px;
+height: 259px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 872px;
+height: 203px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Assets */
+
+width: 872px;
+height: 42px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+/* identical to box height, or 42px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* This design is using assets from pages like Unsplash, Pexels or other assets under a free license. You may need to install fonts that aren’t available on Figma. You are free to use all assets mentioned on the licensing page for personal & commercial use. Check out the page below for all used assets. */
+
+width: 872px;
+height: 145px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 148px;
+height: 24px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Lorem ipsum dolor si */
+
+width: 116px;
+height: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+text-decoration-line: underline;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ri:arrow-right-up-line */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.93%;
+right: 24.98%;
+top: 25%;
+bottom: 24.91%;
+
+background: #242424;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 80px 0px;
+gap: 40px;
+
+width: 1200px;
+height: 348px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Get FREE Framer Template */
+
+width: 502px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 48px;
+gap: 32px;
+
+width: 1040px;
+height: 176px;
+
+background: #F8F8F8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 80px;
+height: 80px;
+
+background: #000000;
+border-radius: 5.33333px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 20 */
+
+position: absolute;
+left: 31.25%;
+right: 30.48%;
+top: 22.5%;
+bottom: 21.25%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.63%;
+right: 30.48%;
+top: 22.5%;
+bottom: 58.75%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 30.87%;
+top: 41.25%;
+bottom: 40%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.44%;
+right: 49.62%;
+top: 59.81%;
+bottom: 21.25%;
+
+background: #FFFFFF;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 832px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 449px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* FREE Framer Template */
+
+width: 275px;
+height: 34px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 130%;
+/* identical to box height, or 34px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Check out the Framer Template of this design. */
+
+width: 449px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 351px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 138px;
+height: 24px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lorem ipsum dolor si */
+
+width: 106px;
+height: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+text-decoration-line: underline;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ri:arrow-right-up-line */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.93%;
+right: 24.98%;
+top: 25%;
+bottom: 24.91%;
+
+background: #242424;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 24px;
+gap: 8px;
+
+width: 193px;
+height: 64px;
+
+background: #000000;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Get Template */
+
+width: 113px;
+height: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ri:arrow-right-up-line */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.93%;
+right: 24.98%;
+top: 25%;
+bottom: 24.91%;
+
+background: #FFFFFF;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 40px;
+
+width: 1200px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 145px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* License */
+
+width: 145px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 48px;
+gap: 32px;
+
+width: 1040px;
+height: 183px;
+
+background: #F8F8F8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* mdi:alert-circle-outline */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 872px;
+height: 87px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 872px;
+height: 87px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can utilize this design in an unlimited number of projects, including commercial and personal projects like websites and apps. However, you are not permitted to resell the files, include them in a product or template that you are selling, publish them online, or distribute them for free. */
+
+width: 872px;
+height: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* text/default */
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px 32px 32px 64px;
+gap: 10px;
+
+width: 1200px;
+height: 90px;
+
+background: #F6F6F6;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5.44px;
+
+margin: 0 auto;
+width: 186.73px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 337 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8.16px;
+
+width: 186.73px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Gola */
+
+width: 47.73px;
+height: 25px;
+
+/* text/default */
+background: #242424;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 338 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8.15573px 0px 0px;
+gap: 13.59px;
+
+width: 10.87px;
+height: 19.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 104 */
+
+width: 10.87px;
+height: 10.87px;
+
+background: #EBFB48;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* templates */
+
+width: 111.82px;
+height: 24.66px;
+
+/* text/default */
+background: #242424;
+opacity: 0.45;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 192px;
+height: 26px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* templates.gola.io */
+
+width: 160px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+text-decoration-line: underline;
+
+color: #242424;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ri:arrow-right-up-line */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.93%;
+right: 24.98%;
+top: 25%;
+bottom: 24.91%;
+
+background: #242424;
