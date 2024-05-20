@@ -1050,6 +1050,38 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
         .layout-resume #markdown-toc:before {
             content: "Summary"
         }
+
+        /* THIS IS WHERE I STARTED ADDIN NEW STUFF */
+
+        .mechanical-design-icon {
+            width: 80px;
+            height: 80px;
+            /*display: block;*/
+            margin: 0 auto;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 5px;
+        }
+
+        .icons-row {
+            display: flex;
+            justify-content: center;
+            /* Aligns icons in the center of the container */
+            gap: 20px;
+            /* Adds space between the icons */
+        }
+
+        .icon-container {
+            text-align: center; /* Center-aligns text within each icon container */
+            align-items: flex-start; /*HOW DO I GET HEADING CLOSER TO ICONS?*/
+        }
+
+        .icons-row .icon {
+            font-size: 2em;
+            margin-left: 50px;
+            margin-right: 50px;
+            /* Adjust the size of the icons */
+        }
     </style>
     <link rel="preload" as="style" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
     <link rel="preload" as="style" href="/assets/icomoon/style.css" id="_iconsPreload">
@@ -1085,7 +1117,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
         </div>
         <hr class="sr-only" hidden />
         <main id="_main" class="content layout-about" role="main">
-<!--             <nav id="breadcrumbs" class="screen-only">
+            <!--             <nav id="breadcrumbs" class="screen-only">
                 <ul>
                     <li><a href="/">home</a>
                     <li> <span>/</span><span>about</span> 
@@ -1097,13 +1129,41 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
                 <header>
                     <h1 class="page-title">About</h1>
                     <div class="hr pb0"></div>
-                </header><img src="/assets/img/headshot.jpg" srcset="/assets/img/headshot.jpg 1x, /assets/img/headshot.jpg 2x" alt="Kris Hanks" class="avatar" width="128" height="128">
-                <p>Welcome to my online portfolio and resume! My name is Kris Hanks, and I'm a passionate and dedicated engineer, ulitimate frisbee
-                    player, and music enthusiast based in Austin, Texas. <br><br>I hold a Bachelor's of Science in Computational Engineering from the Cockrell School of Engineering at the University of Texas in Austin. My experties lies in applying numerical methods to develop computer algorithms that translate mathematical and physical descriptions into models and simulations.<br><br>Between my experience in industry and academics, I have had the priviledge to work on a variety of projects related to the simulation for structural, motion, fluid flow, and optimization applications.<br><br>
-<b>Fun Fact:</b>Texas Engineering is the first program in the U.S. to offer a bachelor of science degree in computational engineering! 
+                </header><img src="/assets/img/headshot.jpg"
+                    srcset="/assets/img/headshot.jpg 1x, /assets/img/headshot.jpg 2x" alt="Kris Hanks" class="avatar"
+                    width="128" height="128">
+                <p>Welcome to my online portfolio and resume! My name is Kris Hanks, and I'm a passionate and dedicated
+                    engineer, ulitimate frisbee
+                    player, and music enthusiast based in Austin, Texas. <br><br>I hold a Bachelor's of Science in
+                    Computational Engineering from the Cockrell School of Engineering at the University of Texas in
+                    Austin. My experties lies in applying numerical methods to develop computer algorithms that
+                    translate mathematical and physical descriptions into models and simulations.<br><br>Between my
+                    experience in industry and academics, I have had the priviledge to work on a variety of projects
+                    related to the simulation for structural, motion, fluid flow, and optimization applications.<br><br>
+                    <b>Fun Fact:</b>Texas Engineering is the first program in the U.S. to offer a bachelor of science
+                    degree in computational engineering!
                 </p>
 
                 <h2 id="my-skills">My Skills</h2>
+
+                <div class="box alt">
+                    <div class="row uniform">
+                        <section class="4u 6u(medium) 12u$(xsmall)">
+                            <div class="icons-row">
+                                <div class="icon-container">
+                                    <img src="/includes/icons8-mechanical.svg" alt="Mechanical Design Icon" class="mechanical-design-icon">
+                                    <h3>Mechanical Design</h3>
+                                    <p>Solidworks (CSWA), Catia v6, Creo Parametric, Autodesk Inventor</p>
+                                </div>
+                                <div class="icon-container">
+                                    <img src="/includes/icons8-handshake-100.png" alt="Handshake Icon" class="mechanical-design-icon">
+                                    <h3>Collaboration</h3>
+                                    <p>Team building, project management, effective communication</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
                 <p><strong>PUT LIL ICONS WITH SKILLS HERE</strong>
             </article>
             <hr class="dingbat related mb6" />
@@ -1128,15 +1188,16 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
                     </nav>
                     <div class="sidebar-social"> <span class="sr-only">Social:</span>
                         <ul>
-                            <li> 
+                            <li>
                                 <a href="https://github.com/khanks0217">
-                                            <img src="/includes/icons8-github.svg" alt="GitHub Icon Description"></a>
-                            <li> <a href="mailto:kr.hanks01@gmail.com" >
-                                <img src="/includes/icons8-email-24.png" alt="Email Icon Description"></a>
-                                <li> <a href="https://instagram.com/kr_hanks" >                                 
-                                <img src="/includes/icons8-instagram.svg" alt="Instagram Icon Description"></a> 
+                                    <img src="/includes/icons8-github.svg" alt="GitHub Icon Description"></a>
+                            <li> <a href="mailto:kr.hanks01@gmail.com">
+                                    <img src="/includes/icons8-email-24.png" alt="Email Icon Description"></a>
+                            <li> <a href="https://instagram.com/kr_hanks">
+                                    <img src="/includes/icons8-instagram.svg" alt="Instagram Icon Description"></a>
                             <li> <a href="https://www.linkedin.com/in/kris-hanks">
-                                <img src="/includes/icons8-linkedin.svg" alt="LinkedIn Icon Description" width="24" height="24"> </a>    
+                                    <img src="/includes/icons8-linkedin.svg" alt="LinkedIn Icon Description" width="24"
+                                        height="24"> </a>
                         </ul>
                     </div>
                 </div>
